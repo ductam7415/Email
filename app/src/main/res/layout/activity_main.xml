@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/activitymain_from"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="from"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/activitymain_To"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/activitymain_from"
+        android:text="To"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/activitymain_Cc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/activitymain_To"
+        android:text="Cc"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/activitymain_Bcc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/activitymain_Cc"
+        android:text="Bcc"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/activitymain_Subject"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/activitymain_Bcc"
+        android:text="Subject"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/activitymain_ComposeEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/activitymain_Subject"
+        android:text="Compose email"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
