@@ -54,5 +54,4 @@
         android:text="Compose email"
         android:textColor="@color/black" />
 
-
 </RelativeLayout>
