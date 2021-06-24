@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/image_view"
+                android:text="tam"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_toRightOf="@id/image_view" />
+            <TextView
+                android:id="@+id/text_information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_name"
+                android:layout_toEndOf="@id/image_view"
+                android:text="dòng này e chịu "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_toRightOf="@id/image_view" />
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                android:layout_marginRight="8dp" />
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
